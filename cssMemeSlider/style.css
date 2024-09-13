@@ -21,6 +21,7 @@ body {
 .slider img {
   width: 100%;
   height: 100%;
+  border-radius: 1rem;
 }
 
 .nav {
@@ -70,7 +71,6 @@ span:hover {
   width: 400%;
   height: 100%;
   display: flex;
-
 }
 
 p {
@@ -87,15 +87,18 @@ p {
   margin-left: -75%;
 }
 
-#item1:checked~.test {
+#item1:checked~.text,
+#item2:checked~.text2,
+#item3:checked~.text3,
+#item4:checked~.text4 {
   display: inline-block;
-  /* display: flex; */
-  /* flex-direction: column; */
   position: absolute;
-  margin-top: 90rem;
+  left: 2%;
+  top: 81rem;
   font-size: 3rem;
   color: rgb(229, 105, 5);
   opacity: 0.8;
+  color: white;
   transition: all 0.4s;
 }
 
@@ -109,4 +112,199 @@ p {
 
 #item4:checked~.mem1 {
   margin-left: 0%;
+}
+
+
+@media (min-width: 2200px) and (max-width: 2800px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 30%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2219px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 27%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 1999px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 25%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 23%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1599px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 20%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 15%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 1099px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    left: 5%;
+  }
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 81rem;
+  }
+}
+
+@media (min-width: 905px) and (max-width: 970px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 75rem;
+  }
+}
+
+@media (min-width: 840px) and (max-width: 904px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 70rem;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 839px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 64rem;
+  }
+}
+
+@media (min-width: 695px) and (max-width: 769px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 58rem;
+  }
+}
+
+@media (min-width: 620px) and (max-width: 694px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 52rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 619px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 48rem;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 549px) {
+
+  #item1:checked~.text,
+  #item2:checked~.text2,
+  #item3:checked~.text3,
+  #item4:checked~.text4 {
+    top: 41rem;
+  }
+
+  .nav {
+    justify-content: center;
+    margin-top: 5rem;
+  }
 }
