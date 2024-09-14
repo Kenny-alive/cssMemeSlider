@@ -76,8 +76,6 @@ input[name='slide'] {
 }
 
 
-
-
 .memes {
   width: 400%;
   height: 100%;
@@ -94,9 +92,6 @@ p {
   transition: all .5s ease-out;
 }
 
-input[type=radio]:checked+span {
-  background: green;
-}
 
 
 #item1:checked~.mem1 {
